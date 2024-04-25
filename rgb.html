@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB</title>
+</head>
+<body>
+    <button id="Red">R</button>
+    <button id="Green">G</button>
+    <button id="Blue">B</button>
+    <script>
+        let body = document.querySelector("body");
+        document.querySelector("#Red").onclick=function()
+        {
+            body.style.backgroundColor = "Red";
+        };
+        document.querySelector("#Green").onclick=function()
+        {
+            body.style.backgroundColor = "Green";
+        };
+        document.querySelector("#Blue").onclick=function()
+        {
+            body.style.backgroundColor = "Blue";
+        };
+    </script>
+</body>
+</html>
